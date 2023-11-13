@@ -1,0 +1,273 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,li {
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* common css start */
+
+
+
+/* navbar start */
+.navbar{
+    background:#1C1E53;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 32px;
+    padding-left: 0;
+    color: #BBBBCB;
+    transition: all linear 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 48px;
+}
+.nav-btn button {
+    padding: 16px 48px;
+    color: #fff;
+    border-radius: 41px;
+    background: none;
+    border:1px solid rgba(244, 246, 252, 0.2);
+    transition: all linear 0.4s;
+}
+.nav-btn button:hover{
+    border:1px solid #ffffff;
+}
+/* navbar end */
+
+
+
+/* pricing plans start */
+#pricing{
+    padding: 128px 0;
+}
+#pricing .pricing-part-title h1 {
+    font-size: 48px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+}
+#pricing .pricing-part-title p {
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.69);
+}
+#pricing .pricing-part-title{
+    padding-bottom: 64px;
+}
+#pricing .packages{
+    padding-top: 64px;
+    padding-bottom: 62px;
+    padding-left: 48px;
+    background: #F4F6FC;
+    border-radius: 12px;
+}
+#pricing .packages:hover{
+    background:#1C1E53;
+    transition: all linear 0.4s;
+}
+#pricing .packages .package-price {
+    display: flex;
+}
+#pricing .packages .package-price h2{
+    font-size: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+#pricing .packages:hover .package-price h2{
+    color: #fff;
+}
+#pricing .packages .package-price p{
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2405F2;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+#pricing .packages:hover .package-price p{
+    color: #FCD980;
+}
+#pricing .packages .package-name h3{
+    font-size: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+}
+#pricing .packages:hover .package-name h3{
+    color: #fff;
+}
+#pricing .packages .package-name p{
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.69);
+    margin-bottom: 78px;
+}
+#pricing .packages:hover .package-name p{
+    color: rgba(255, 255, 255, 0.69);
+}
+.middle-pack {
+    margin-bottom: 50px !important;
+}
+#pricing .packages .package-services ul li{
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    margin-left: -31px;
+}
+#pricing .packages:hover .package-services ul li{
+    color: #fff;
+}
+#pricing .packages .package-services ul li i{
+    font-size: 26px;
+    color: #97DAAD;
+    margin-right: 12px;
+}
+#pricing .packages .package-btn button{
+    margin-top: 95px;
+    padding: 15px 51px;
+    border-radius: 41px;
+    background: #282938;
+    border: 1px solid #282938 ;
+    color: #fff;
+}
+#pricing .packages:hover .package-btn button{
+    color: #282938;
+    background: #FCD980;
+}
+/* pricing plans end */
+
+
+
+/* accordion part start */
+#accordion-part{
+    padding-bottom: 128px;
+}
+#accordion-part .accordion-title h2{
+    font-size: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+#accordion-part .accordion-title a{
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(37, 5, 242, 0.87);
+}
+/* accordion part end */
+
+
+
+ /*  footer part start */
+ #footer-part{
+    padding-top: 128px;
+    padding-bottom: 0;
+    background: #1C1E53;
+  }
+  #footer-part .footer-paragraph p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 20px;
+  }
+  #footer-part .footer-title h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+  }
+  #footer-part .footer-icons i {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-right: 26px;
+  }
+  #footer-part .footer-contact-wrapper{
+    display: flex;
+    background: #FCD980;
+  }
+  #footer-part .footer-contact-wrapper .contacts{
+    padding-left: 30px;
+  }
+  #footer-part .footer-contact-wrapper .contacts h5{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+  }
+  #footer-part .footer-contact-wrapper .contacts p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.8);
+  }
+  /*  footer part end  */
+ 
+ 
+ 
+  /* copyright part start */
+  #copyright{
+   padding-top: 32px;
+   padding-bottom: 32px;
+  }
+  #copyright .rights p{
+   font-family: 'Poppins';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+  }
+  #copyright .menu-items ul{
+   display: flex;
+  }
+  #copyright .menu-items ul li a{
+   padding-right: 32px;
+   font-family: 'Poppins';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+  }
+  #copyright .menu-items ul li:last-child{
+   padding-right: 0;
+  }
+  /* copyright part end */

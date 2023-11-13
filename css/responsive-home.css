@@ -1,0 +1,16 @@
+@media (min-width:0px) and (max-width:320){
+    #banner {
+        padding-top: 82px;
+        padding-bottom: 98px;
+    }
+    #banner .banner-txt h1 {
+        font-size: 31px;
+        line-height: 49px;
+        text-align: center !important;
+    }
+    #banner .banner-txt p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center !important;
+    }
+}
